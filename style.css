@@ -26,10 +26,6 @@ li {
 	list-style: none;
 }
 
-h2 {
-	text-align: center;
-}
-
 /* NAVBAR STYLING STARTS */
 .navbar {
 	display: flex;
@@ -38,7 +34,8 @@ h2 {
 	padding: 20px;
 	background-color: #1F2937;
 	color: #fff;
-	padding: 18px 200px;
+	padding: 0px 200px;
+	margin: 0px 200px;
 }
 
 .nav-links a {
@@ -93,14 +90,9 @@ input[type=checkbox] {
 	justify-content: center;
 	align-items: center;
 	gap: 70px;
-	border: 1px red solid;
-	padding: 0px 200px
-}
+	padding: 100px 200px;
+	margin: 0px 200px;
 
-.hero .hero-text {
-	border: 1px red solid;
-	flex: 1;
-	padding-right: 170px;
 }
 
 .hero .hero-text h2 {
@@ -108,11 +100,13 @@ input[type=checkbox] {
 	font-size: 48px;
 	font-weight: 800;
 	color: #F9FAF8;
+	flex-grow: 1;
 }
 
 .hero p {
 	font-size: 18px;
 	color: #E5E7EB;
+	flex-grow: 1;
 }
 
 .hero .sign {
@@ -145,6 +139,7 @@ input[type=checkbox] {
 	font-size: 36px;
 	font-weight: 800px;
 	color: #1F2937;
+	text-align: center;
 }
 
 .info .boxes {
@@ -162,6 +157,7 @@ input[type=checkbox] {
 .info .boxes .ul-boxes .li-boxes {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 }
 
 .info .boxes .ul-boxes img {
@@ -171,11 +167,63 @@ input[type=checkbox] {
 	border-radius: 12px;
 }
 
-.quote p {
+.info .boxes .ul-boxes p {
+	margin-top: 10px;
+	color: grey;
+}
+
+.quote {
 	margin-top: 100px;
 	background-color: #E5E7EB;
+	padding: 100px 200px;
+	margin: 100px 200px;
+}
+
+.quote blockquote {
 	font-size: 36px;
 	font-family: 'lightItalic';
+}
+
+.quote figcaption {
+	font-size: 36px;
+	font-weight: 800;
+	text-align: end;
+}
+
+.action {
+	display: flex;
+	background-color: #3882F6;
+	margin: 70px 370px;
+	justify-content: space-around;
+	padding: 30px 0px;
+	border-radius: 5px;
+	gap: 40px;
+}
+
+.action h2 {
+	color: #F9FAF8;
+}
+
+.action p {
+	color: #E5E7EB;
+}
+
+.action button {
+	border: 2px #F9FAF8 solid;
+	background-color: #3882F6;
+	color: #F9FAF8;
+	padding: 0px 40px;
+	font-weight: 800;
+	border-radius: 8px;
+	font-size: 20px;
+}
+
+footer {
+	background-color: #1F2937;
+	color: #F9FAF8;
+	text-align: center;
+	padding: 20px 0px;
+	margin: 0px 200px;
 }
 
 /* APPLYING MEDIA QUERIES */
