@@ -59,7 +59,7 @@ body {
 	font-weight: 600;
 	color: #05386B;
 }
-
+/* Navbar menu when hovering */
 .menu li:hover {
 	background-color: rgb(55, 150, 131, 0.3);
 	color: #fff;
@@ -94,20 +94,20 @@ input[type=checkbox] {
 	gap: 70px;
 	padding: 10px 200px;
 }
-
+/* Second level heading */
 .hero .hero-text h2 {
 	font-size: 48px;
 	font-weight: 800;
 	color: #EDF5E1;
 	flex-grow: 1;
 }
-
+/* The Text Below The Second Level Heading */
 .hero p {
 	font-size: 18px;
 	color: #EDF5E1;
 	font-weight: 600;
 }
-
+/* Button */
 .hero .sign {
 	background-color: #379783;
 	font-size: 18px;
