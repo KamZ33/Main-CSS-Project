@@ -33,7 +33,12 @@ li {
 	justify-content: space-between;
 	background-color: #5CDB95;
 	color: #05386B;
-	padding: 15px 200px 0px 200px;
+	padding: 12px 200px;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
 }
 
 .nav-links a {
