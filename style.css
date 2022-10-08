@@ -5,6 +5,17 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+a,
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	font-family: cursive;
+	background-color: rgb(236, 236, 236);
+}
+
 @font-face {
 	font-family: 'Roboto';
 	src: url(./fonts/Roboto/Roboto-Regular.ttf);
@@ -13,17 +24,6 @@
 @font-face {
 	font-family: 'lightItalic';
 	src: url(./fonts/Roboto/Roboto-LightItalic.ttf);
-}
-
-body {
-	font-family: cursive;
-	background-color: rgb(236, 236, 236);
-}
-
-a,
-li {
-	text-decoration: none;
-	list-style: none;
 }
 
 /* NAVBAR STYLING STARTS */
@@ -35,7 +35,7 @@ li {
 	color: #05386B;
 	padding: 12px 200px;
 }
-
+/* Making it stay at the top */
 .sticky {
 	position: sticky;
 	top: 0;
@@ -82,7 +82,7 @@ input[type=checkbox] {
 	font-size: 24px;
 	user-select: none;
 }
-
+/* Hero */
 .hero {
 	min-height: 600px;
 	max-height: 800px;
@@ -136,7 +136,7 @@ input[type=checkbox] {
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px 1px rgb(142, 228, 175);
 }
-
+/* Info */
 .info {
 	margin-top: 40px;
 	display: flex;
@@ -180,7 +180,7 @@ input[type=checkbox] {
 	margin-top: 10px;
 	color: grey;
 }
-
+/* Quote */
 .quote {
 	margin: 100px auto;
 	background-color: #E5E7EB;
@@ -203,7 +203,7 @@ input[type=checkbox] {
 	font-weight: 800;
 	text-align: end;
 }
-
+/* Action */
 .action {
 	display: flex;
 	background-color: #3882F6;
@@ -231,7 +231,7 @@ input[type=checkbox] {
 	border-radius: 8px;
 	font-size: 20px;
 }
-
+/* Footer */
 footer {
 	background-color: #5CDB95;
 	color: #05386B;
